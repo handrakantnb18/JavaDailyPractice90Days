@@ -13,5 +13,17 @@ public class LogicalOperator {
         }else {
             System.out.println("Both condition are false..");
         }
+
+        // or || operator
+
+        int number1 = 150;
+        int number2 = 250;
+        int number3 = 350;
+
+        if (number1 > number2 || number3 > number1) {
+            System.out.println("Both condition are true... ");
+        }else {
+            System.out.println("Both condition are false...");
+        }
     }
 }
