@@ -25,5 +25,17 @@ public class LogicalOperator {
         }else {
             System.out.println("Both condition are false...");
         }
+
+        // NOT ! operator
+
+        int a = 55;
+        int b = 44;
+        if (!(a > b)) {
+            System.out.println("A is NOT grater than B");
+        }else {
+            System.out.println("A is grater than B");
+        }
+
+
     }
 }
