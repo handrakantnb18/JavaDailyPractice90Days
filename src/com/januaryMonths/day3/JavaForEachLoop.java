@@ -8,7 +8,7 @@ public class JavaForEachLoop {
             System.out.println(froot);
         }
 
-        int[] empid = {101, 102, 103, 104, 105};
+        int[] empid = {101, 102, 103, 104, 105, 106};
 
         for (int emp : empid) {
             System.out.println(emp);
