@@ -23,5 +23,17 @@ public class JavaArrayRealLife {
         }
 
         System.out.println("The average age is : "+avg);
+        int[] numbers = {3, 1, 5, 8, 9};
+
+        for (int n : numbers){
+            if (n < 0){
+                continue;
+            }
+            if (n ==0) {
+                break;
+            }
+            System.out.println(n);
+        }
     }
+
 }
