@@ -7,7 +7,7 @@ public class JavaIfElseIfStatement {
 
         if (mark == 80) {
             System.out.println("A grade and pass..");
-        }else if (mark == 60){
+        }else if (mark == 70){
             System.out.println("B grade and pass..");
         }else {
             System.out.println("He is not pass..");
