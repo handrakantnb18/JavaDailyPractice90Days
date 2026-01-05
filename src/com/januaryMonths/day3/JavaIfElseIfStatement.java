@@ -24,5 +24,16 @@ public class JavaIfElseIfStatement {
         }else {
             System.out.println("Good Night.....");
         }
+
+        // check condition day
+        int day = 9;
+
+        if (day < 6) {
+            System.out.println("first Week....");
+        } else if (day < 10) {
+            System.out.println("Second week...");
+        }else {
+            System.out.println("Multiple weeks..");
+        }
     }
 }
