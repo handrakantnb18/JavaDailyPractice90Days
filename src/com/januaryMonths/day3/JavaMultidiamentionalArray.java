@@ -15,6 +15,12 @@ public class JavaMultidiamentionalArray {
         System.out.println("Columns in row 0 : "+n[0].length);
         System.out.println("Columns in row 1 : "+n[1].length);
 
+        for (int row = 0; row < n.length; row++) {
+            for (int col = 0; col < n[row].length; col++) {
+                System.out.println("Numbers : [" + row + "] ["+ col + "] =" + n[row][col]);
+            }
 
+
+        }
     }
 }
