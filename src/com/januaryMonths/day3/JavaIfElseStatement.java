@@ -12,5 +12,15 @@ public class JavaIfElseStatement {
             System.out.println("No rain, no Umbrella");
         }
 
+        // check the good morning or good evening as per time
+
+        int time = 20;
+
+        if (time < 12) {
+            System.out.println("Good morning...");
+        }else {
+            System.out.println("Good evening...");
+        }
+
     }
 }
