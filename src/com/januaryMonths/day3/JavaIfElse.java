@@ -15,18 +15,20 @@ public class JavaIfElse {
             System.out.println("20 is greater than 18..");
         }
 
-
+        // variable declaration and check greater than value
         int num1 = 25;
         int num2 = 18;
         if (num1 > num2) {
             System.out.println("X is greater than Y..");
         }
 
+        // check two are equals or not
         int a = 100;
         int b = 100;
         if (a == b){
             System.out.println("A and B is equals..");
         }
+
 
 
     }
