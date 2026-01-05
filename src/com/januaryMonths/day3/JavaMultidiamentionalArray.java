@@ -20,7 +20,11 @@ public class JavaMultidiamentionalArray {
                 System.out.println("Numbers : [" + row + "] ["+ col + "] =" + n[row][col]);
             }
 
-
+            for (int[] row1 : n ){
+                for (int num5 : row1) {
+                    System.out.println(num5);
+                }
+            }
         }
     }
 }
