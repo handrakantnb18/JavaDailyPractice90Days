@@ -8,5 +8,24 @@ public class JavaBreakContinue {
             }
             System.out.println(i);
         }
+
+        for (int i = 0; i < 5; i++){
+            if (i == 4)
+            {
+                continue;
+            }
+            System.out.println(i);
+        }
+
+        for (int i = 0; i < 5; i++)
+        {
+            if (i == 2){
+                continue;
+            }
+            if (i == 3 ) {
+                break;
+            }
+            System.out.println(i);
+        }
     }
 }
