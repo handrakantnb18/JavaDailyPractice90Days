@@ -10,5 +10,14 @@ public class JavaArrayLoops {
         System.out.println(cars[1]);
 
         System.out.println(cars1.length);
+
+        String[] frout = new String[4];
+
+        frout[0] = "Apple";
+        frout[1] = "Banana";
+        frout[2] = "Mango";
+        frout[3] = "Graps";
+
+        System.out.println(frout[1]);
     }
 }
