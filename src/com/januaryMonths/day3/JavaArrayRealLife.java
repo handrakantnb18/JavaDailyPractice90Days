@@ -33,6 +33,7 @@ public class JavaArrayRealLife {
                 break;
             }
             System.out.println(n);
+            System.out.println(numbers.length);
         }
     }
 
