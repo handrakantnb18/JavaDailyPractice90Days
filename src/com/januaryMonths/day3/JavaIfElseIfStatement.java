@@ -12,5 +12,17 @@ public class JavaIfElseIfStatement {
         }else {
             System.out.println("He is not pass..");
         }
+
+        // check value grater than and less than
+
+        int time = 8;
+
+        if (time < 9) {
+            System.out.println("Good morning...");
+        } else if (time < 18) {
+            System.out.println("Good evening...");
+        }else {
+            System.out.println("Good Night.....");
+        }
     }
 }
