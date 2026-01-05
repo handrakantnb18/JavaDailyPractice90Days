@@ -8,5 +8,9 @@ public class JavaForLoop {
         {
             System.out.println(i);
         }
+
+        for (i = 0; i <= 10; i = i + 2) {
+            System.out.print(i);
+        }
     }
 }
