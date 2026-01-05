@@ -13,5 +13,16 @@ public class BooleanCheck {
         int y = 20;
         System.out.println(x > y);
         System.out.println(x < y);
+
+        int myAge = 25;
+        int votingAge = 18;
+
+        System.out.println(myAge > votingAge);
+
+        if (myAge >= votingAge) {
+            System.out.println("Voting is allow. ");
+        }else {
+            System.out.println("Voting not allow. ");
+        }
     }
 }
