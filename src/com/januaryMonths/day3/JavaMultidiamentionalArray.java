@@ -8,5 +8,13 @@ public class JavaMultidiamentionalArray {
         int [][] num = {{3, 6, 9},{2, 4, 8}};
         num[1][2] = 9;
         System.out.println(num[1][2]);
+
+        int[][] n = {{1, 4, 5},{2, 3, 6, 7, 9, 8}};
+
+        System.out.println("Rows : "+n.length);
+        System.out.println("Columns in row 0 : "+n[0].length);
+        System.out.println("Columns in row 1 : "+n[1].length);
+
+
     }
 }
