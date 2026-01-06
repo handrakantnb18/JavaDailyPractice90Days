@@ -1,7 +1,7 @@
 package com.januaryMonths.day5.oops;
 
 public class Main {
-    int y = 25;
+    final int y = 25;
     int x = 10;
 
     public static void main(String[] args) {
