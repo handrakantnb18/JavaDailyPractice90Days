@@ -2,11 +2,13 @@ package com.januaryMonths.day5.oops;
 
 public class Main {
     int y = 25;
+    int x = 10;
 
     public static void main(String[] args) {
-        int x = 10;
+
         Main m = new Main();
+        Main m1 = new Main();
         System.out.println(m.y);
-        System.out.println(x);
+        System.out.println(m1.x);
     }
 }
