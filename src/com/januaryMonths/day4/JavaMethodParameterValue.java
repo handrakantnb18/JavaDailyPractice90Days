@@ -5,6 +5,7 @@ public class JavaMethodParameterValue {
         return  a + b;
     }
     public static void main(String[] args) {
-        System.out.println(num(4, 6));
+        int c = num(4, 6);
+        System.out.println(c);
     }
 }
