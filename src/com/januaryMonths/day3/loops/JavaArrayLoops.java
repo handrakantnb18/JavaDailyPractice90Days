@@ -1,4 +1,4 @@
-package com.januaryMonths.day3;
+package com.januaryMonths.day3.loops;
 
 public class JavaArrayLoops {
     public static void main(String[] args) {
