@@ -10,6 +10,7 @@ public class JavaMethodParameter {
             System.out.println("Access Granted - you are eligible......");
         }
     }
+
     public static void main(String[] args) {
         display("Chandrakant ", " Bhosale ", 33);
         display("Priyanka ", " Bhosale ", 27);
