@@ -8,11 +8,17 @@ public class JavaMethodOverloading {
     static double doubleMethod (double a, double b) {
         return a + b;
     }
+
+    static float floatMethod(float a, float b) {
+        return a * b;
+    }
     public static void main(String[] args) {
         int plm = plusMethod(45, 56);
         double dlm = doubleMethod(78, 89);
+        float flm = floatMethod(12, 23);
 
         System.out.println("Int Number : " +plm);
         System.out.println("Double Number : " +dlm);
+        System.out.println("Float Number : " +flm);
     }
 }
