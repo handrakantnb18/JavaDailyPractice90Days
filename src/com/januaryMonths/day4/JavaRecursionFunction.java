@@ -4,6 +4,7 @@ public class JavaRecursionFunction {
     public static int sum(int k, int start, int end) {
         if (k > 0) {
             return k + sum(k - 1, start, end - 1);
+
         }else {
             return  end;
         }
