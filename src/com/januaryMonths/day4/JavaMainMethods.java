@@ -5,6 +5,9 @@ public class JavaMainMethods {
         System.out.println("Method is executed...");
     }
     public static void main(String[] args) {
-        display();;
+        display();
+        display();
+        display();
+        display();
     }
 }
