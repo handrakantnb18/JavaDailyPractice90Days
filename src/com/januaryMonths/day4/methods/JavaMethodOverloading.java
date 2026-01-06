@@ -1,4 +1,4 @@
-package com.januaryMonths.day4;
+package com.januaryMonths.day4.methods;
 
 public class JavaMethodOverloading {
     static int plusMethod(int a, int b){

@@ -1,4 +1,4 @@
-package com.januaryMonths.day4;
+package com.januaryMonths.day4.methods;
 
 public class JavaRecursionFAdvance {
     static void contdown(int n) {

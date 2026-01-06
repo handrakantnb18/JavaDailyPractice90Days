@@ -1,4 +1,4 @@
-package com.januaryMonths.day4;
+package com.januaryMonths.day4.methods;
 
 public class JavaMethodParameter {
     static void display(String fName, String lName, int age){

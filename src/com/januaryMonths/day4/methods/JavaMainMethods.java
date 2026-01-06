@@ -1,4 +1,4 @@
-package com.januaryMonths.day4;
+package com.januaryMonths.day4.methods;
 
 public class JavaMainMethods {
     static void display() {

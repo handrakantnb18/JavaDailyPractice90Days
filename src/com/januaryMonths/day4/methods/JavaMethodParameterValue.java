@@ -1,4 +1,4 @@
-package com.januaryMonths.day4;
+package com.januaryMonths.day4.methods;
 
 public class JavaMethodParameterValue {
     static int num(int a, int b) {
