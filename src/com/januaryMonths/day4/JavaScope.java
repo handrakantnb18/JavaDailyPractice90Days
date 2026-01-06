@@ -7,6 +7,7 @@ public class JavaScope {
         for (x = 0; x < 5; x++) {
             System.out.println("Loop : "+x);
         }
-
+        JavaScope js = new JavaScope();
+        System.out.println(js);
     }
 }
