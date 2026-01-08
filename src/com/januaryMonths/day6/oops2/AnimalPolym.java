@@ -11,11 +11,13 @@ class Pig extends Animal {
         System.out.println("Wee, Wee");
     }
 }
+
 class Dog extends Pig {
     public void animalSound() {
         System.out.println("Bho, Bho...");
     }
 }
+
 public class AnimalPolym  extends Dog {
 
     public static void main(String[] args) {
