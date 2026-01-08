@@ -19,7 +19,6 @@ class Dog extends Pig {
 }
 
 public class AnimalPolym  extends Dog {
-
     public static void main(String[] args) {
         AnimalPolym a = new AnimalPolym();
         a.animalSound();
