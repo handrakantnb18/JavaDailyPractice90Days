@@ -7,14 +7,15 @@ abstract class Animal {
     }
 }
 class Pig extends Animal{
-    public void sheep(){
+    public void animalName(){
         System.out.println("AAAA");
     }
 }
-public class AbstractMain extends Animal {
+public class AbstractMain {
 
     public static void main(String[] args) {
-        Animal a = new Animal("AAAA");
-        System.out.println(a);
+        Pig p = new Pig();
+        p.sheep();
+        p.animalName();
     }
 }
