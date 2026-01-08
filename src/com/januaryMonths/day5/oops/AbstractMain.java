@@ -2,12 +2,12 @@ package com.januaryMonths.day5.oops;
 
 abstract class Animal {
     public abstract void animalName();
-    public void type() {
+    public void sheep() {
         System.out.println("Dog");
     }
 }
 class Pig extends Animal{
-    public void type(){
+    public void sheep(){
         System.out.println("AAAA");
     }
 }
