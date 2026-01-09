@@ -13,6 +13,7 @@ class Engineer1 implements Admin1 {
         System.out.println("ABCDEF...");
     }
 }
+
 public class EmployeeInterface {
 
     public static void main(String[] args) {
