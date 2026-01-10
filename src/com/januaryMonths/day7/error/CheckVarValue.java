@@ -2,7 +2,7 @@ package com.januaryMonths.day7.error;
 
 public class CheckVarValue {
     public static void main(String[] args) {
-        int age = 19;
+        int age = 15;
         System.out.println("Age : " +age);
 
         if (age >= 18) {
