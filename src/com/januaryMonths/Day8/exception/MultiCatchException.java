@@ -10,5 +10,4 @@ public class MultiCatchException {
             System.out.println("Math error divide by zero");
         }
     }
-
 }
