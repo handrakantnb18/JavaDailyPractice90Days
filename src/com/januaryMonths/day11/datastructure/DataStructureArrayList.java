@@ -2,7 +2,7 @@ package com.januaryMonths.day11.datastructure;
 
 import java.util.ArrayList;
 
-public class DataStructure {
+public class DataStructureArrayList {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<>();
         cars.add("TATA");
