@@ -1,7 +1,7 @@
 package com.januaryMonths.day12.collections.List;
 
 import java.util.ArrayList;
-
+// access elements
 public class CarsArrayList {
     public static void main(String[] args) {
         ArrayList<String> cars = new ArrayList<>();
