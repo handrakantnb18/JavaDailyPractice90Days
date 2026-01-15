@@ -18,5 +18,6 @@ public class MultiFileHandling {
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
+        System.out.println("Please check again...");
     }
 }
