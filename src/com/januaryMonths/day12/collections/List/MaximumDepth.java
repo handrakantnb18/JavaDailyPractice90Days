@@ -5,6 +5,7 @@ class NodePathSum {
     NodePathSum left, right;
 
     NodePathSum(int key) {
+
         data = key;
         left = right = null;
     }
