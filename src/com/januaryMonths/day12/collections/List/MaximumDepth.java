@@ -1,48 +1,46 @@
 package com.januaryMonths.day12.collections.List;
 
-class NodeMin {
+class NodePathSum {
     int data;
-    NodeMin left, right;
+    NodePathSum left, right;
 
-    public NodeMin(int value) {
-        data = value;
+    NodePathSum(int key) {
+        data = key;
         left = right = null;
     }
 }
 
 public class MaximumDepth {
-
-    NodeMin root;
-
-    int minimumDepth() {
-        return minimumDepth(root);
-    }
-
-    int minimumDepth(NodeMin root) {
+    static boolean hasPathSum(NodePathSum root, int sum) {
         if (root == null)
-            return 0;
+            return false;
 
-        if (root.left == null && root.right == null)
-            return 1;
+        int subSum = sum - root.data;
 
-        if (root.left == null)
-            return minimumDepth(root.right) + 1;
+        if (subSum == 0 && root.left == null && root.right == null)
+            return true;
 
-        if (root.right == null)
-            return minimumDepth(root.left) + 1;
+        boolean left = false, right = false;
 
-        return Math.min(minimumDepth(root.left),
-                minimumDepth(root.right)) + 1;
+        if (root.left != null)
+            left = hasPathSum(root.left, subSum);
+
+        if (root.right != null)
+            right = hasPathSum(root.right, sum);
+
+        return left || right;
     }
 
     public static void main(String[] args) {
-        MaximumDepth tree = new MaximumDepth();
-        tree.root = new NodeMin(10);
-        tree.root.left = new NodeMin(20);
-        tree.root.right = new NodeMin(30);
-        tree.root.left.left = new NodeMin(40);
-        tree.root.left.right = new NodeMin(50);
+        int sum = 21;
 
-        System.out.println("The minimum depth of " + "binary tree is : " + tree.minimumDepth());
+        NodePathSum item = new NodePathSum(10);
+        item.left = new NodePathSum(8);
+        item.right = new NodePathSum(2);
+        item.left.left = new NodePathSum(3);
+        item.left.right = new NodePathSum(5);
+        item.right.left = new NodePathSum(2);
+
+        System.out.println(hasPathSum(item, sum));
     }
 }
