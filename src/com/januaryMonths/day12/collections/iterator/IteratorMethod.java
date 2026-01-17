@@ -14,6 +14,10 @@ public class IteratorMethod {
 
         Iterator<String> it = emp.iterator();
 
-        System.out.println(it.next());
+        //System.out.println(it.next());
+        while (it.hasNext())
+        {
+            System.out.println(it.next());
+        }
     }
 }
