@@ -15,6 +15,6 @@ public class AlgorithamSortList {
         Collections.sort(city);
         int a = Collections.binarySearch(city, "Chennai");
         System.out.println("By name : " +a);
-        System.out.println(city);
+        System.out.println("Name of cities : " +city);
     }
 }
