@@ -15,6 +15,8 @@ public class AlgorithamReverseOrder {
         num1.add(6);
 
         Collections.sort(num1);
-        System.out.println(num1);
+        System.out.println("Original numbers" + num1);
+        Collections.sort(num1, Collections.reverseOrder());
+        System.out.println("Reverse numbers : "+num1);
     }
 }
