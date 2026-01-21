@@ -53,7 +53,7 @@ public class FloodFill {
             for (int pixel : row) {
                 System.out.print(pixel + " ");
             }
-            System.out.println();
+            System.out.println( " ");
         }
     }
 }
