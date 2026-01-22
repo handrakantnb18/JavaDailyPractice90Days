@@ -15,7 +15,7 @@ class Dog extends Animal {
 
 public class AnnotationsMain {
     public static void main(String[] args) {
-        Animal myDog = new Animal();
+        Animal myDog = new Dog();
         myDog.makeSound();
     }
 }
