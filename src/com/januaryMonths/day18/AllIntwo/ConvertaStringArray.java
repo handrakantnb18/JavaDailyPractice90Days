@@ -6,6 +6,10 @@ public class ConvertaStringArray {
 
         char[] arr = str.toCharArray();
 
+
+        for (char i : arr) {
+            System.out.println(i);
+        }
         System.out.println(arr[0]);
     }
 }
