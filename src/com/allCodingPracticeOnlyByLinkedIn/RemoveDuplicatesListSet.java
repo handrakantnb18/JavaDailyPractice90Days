@@ -14,6 +14,7 @@ public class RemoveDuplicatesListSet {
 
         List<String> uniqueList = new ArrayList<>(set);
 
+        System.out.println();
         System.out.println("List after removing duplicates : "+ uniqueList);
     }
 }
