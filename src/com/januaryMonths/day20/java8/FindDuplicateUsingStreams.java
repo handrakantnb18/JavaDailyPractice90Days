@@ -1,7 +1,9 @@
 package com.januaryMonths.day20.java8;
 
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -21,6 +23,17 @@ public class FindDuplicateUsingStreams {
     // Java program to find the duplicate
     // elements in a Stream using Collectors.groupingBy()
 
+    public static <T> Set<T> findDpulicatesStr(Stream<T> stream) {
+        return stream.collect(
+                Collectors.groupingBy(Function.identity(),
+                        Collectors.counting()))
+                .entrySet().stream()
+                .filter(m -> m.getValue() > 1)
+                .map(Map.Entry::getKey)
+                .collect(Collectors.toSet());
+    }
+
+
     public static void main(String[] args) {
         //Java program to find the duplicate
 
@@ -29,5 +42,16 @@ public class FindDuplicateUsingStreams {
             );
 
         System.out.println(findDuplicateStream(stream));
+
+        // Java program to find the duplicate
+        // elements in a Stream using Collectors.groupingBy()
+
+        Stream<Integer> stream1 = Stream.of(
+                5, 5, 22, 56, 82, 82, 78, 98, 78
+        );
+
+        System.out.println(findDpulicatesStr(stream1));
+
+
     }
 }
