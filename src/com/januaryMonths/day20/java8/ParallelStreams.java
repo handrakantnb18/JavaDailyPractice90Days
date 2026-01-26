@@ -22,5 +22,6 @@ public class ParallelStreams {
         List<String> lines = Files.readAllLines(file.toPath());
         lines.parallelStream()
                 .forEach(System.out::println);
+
     }
 }
