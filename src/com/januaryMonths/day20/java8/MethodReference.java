@@ -53,6 +53,5 @@ public class MethodReference {
         Supplier<MethodReference> supplier = MethodReference::new;
         supplier.get();
 
-
     }
 }
