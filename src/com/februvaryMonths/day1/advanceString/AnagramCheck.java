@@ -1,4 +1,4 @@
-package com.februvaryMonths;
+package com.februvaryMonths.day1.advanceString;
 
 import java.util.Arrays;
 
