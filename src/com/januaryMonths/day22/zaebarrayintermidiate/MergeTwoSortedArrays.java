@@ -30,6 +30,6 @@ public class MergeTwoSortedArrays {
         for (int num : result) {
             System.out.println(num+ " ");
         }
-
+        System.out.println();
     }
 }
